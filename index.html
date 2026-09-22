@@ -2,32 +2,64 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>Nguyen Tan Tai - Gioi thieu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyen Tan Tai - Trang chu</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <h1>Nguyen Tan Tai</h1>
+    <header>
+        <h1>Nguyen Tan Tai</h1>
+        <p>Sinh vien nganh Ky thuat Phan mem</p>
+        <nav>
+            <a href="index.html">Trang chu</a> | 
+            <a href="about.html">Gioi thieu</a> | 
+            <a href="contact.html">Lien he</a> | 
+            <!-- BỔ SUNG BƯỚC 13 -->
+            <a href="https://github.com/tai-example/my-website" target="_blank" rel="noopener">GitHub Repo</a>
+        </nav>
+    </header>
 
-    <h2>Thong Tin Ca Nhan</h2>
-    <p>Ho va ten: <strong>Nguyen Tan Tai</strong></p>
-    <p>Que quan: Vinh Long</p>
-    <p>Nganh hoc: Ky Thuat Phan Mem</p>
-    <p>Nam hoc: Nam 2</p>
+    <main>
+        <div class="card"></div>
+        <section>
+            <h2>Thong Tin Ca Nhan</h2>
+            <p>Ho va ten: <strong>Nguyen Tan Tai</strong></p>
+            <p>Que quan: Vinh Long</p>
+            <p>Nganh hoc: Ky Thuat Phan Mem</p>
+            <p>Nam hoc: Nam 2</p>
+        </section>
 
-    <h2>So thich</h2>
-    <ul>
-        <li>Lap trinh web</li>
-        <li>Doc sach</li>
-        <li>Da chuyen</li>
-    </ul>
+        <section>
+            <h2>So thich</h2>
+            <ul>
+                <li>Lap trinh web</li>
+                <li>Doc sach</li>
+                <li>Da chuyen</li>
+            </ul>
+        </section>
 
-    <h2>Muc tieu hoc ky nay</h2>
-    <ol>
-        <li>Nam vung HTML CSS</li>
-        <li>Lam 3 du an web</li>
-        <li>Dat diem cao</li>
-    </ol>
+        <section>
+            <h2>Muc tieu hoc ky nay</h2>
+            <ol>
+                <li>Nam vung HTML CSS</li>
+                <li>Lam 3 du an web</li>
+                <li>Dat diem cao</li>
+            </ol>
+        </section>
+      </div>  
+    </main>
 
+    <footer>
+        <address>
+            Email: <a href="mailto:tai@example.com">tai@example.com</a> &amp; So dien thoai: 0123456789
+        </address>
+        <!-- BỔ SUNG BƯỚC 7: Thẻ <time> cho ngày cập nhật -->
+        <p>Cap nhat lan cuoi: <time datetime="2026-06-01">01/06/2026</time></p>
+        <p>&copy; 2026 Nguyen Tan Tai. All rights reserved.</p>
+    </footer>
+    <h1 id="main-title">Tieu De Bai Tap 1
+            <p class="highlight">Xay dung bai HTML</p>
+        </h1>
 </body>
 </html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyen Tan Tai - Lien he</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Nguyen Tan Tai</h1>
+        <p>Sinh vien nganh Ky thuat Phan mem</p>
+        <nav>
+            <a href="index.html">Trang chu</a> | 
+            <a href="about.html">Gioi thieu</a> | 
+            <a href="contact.html">Lien he</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Lien he voi toi</h2>
+            <form action="#" method="POST">
+                <fieldset>
+                    <legend>Thông tin cá nhân</legend>
+                    
+                    <div>
+                        <label for="fullname">Họ tên:</label>
+                        <input type="text" id="fullname" name="fullname" required minlength="2">
+                    </div>
+
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div>
+                        <label for="phone">Điện thoại:</label>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{10,11}">
+                    </div>
+                </fieldset>
+                <legend>Nội dung liên hệ</legend>
+
+            <div>
+                <label for="subject">Chủ đề:</label>
+                <select id="subject" name="subject">
+                    <option value="ho-tro">Hỗ trợ</option>
+                    <option value="hoc-tap">Học tập</option>
+                    <option value="khac">Khác</option>
+                </select>
+            </div>
+
+            <div>
+                <label>Ưu tiên liên hệ:</label>
+                <label><input type="radio" name="priority" value="email"> Email</label>
+                <label><input type="radio" name="priority" value="phone"> Phone</label>
+                <label><input type="radio" name="priority" value="zalo"> Zalo</label>
+            </div>
+
+            <div>
+                <label for="message">Nội dung:</label><br>
+                <textarea id="message" name="message" rows="5" required minlength="10"></textarea>
+            </div>
+
+            <div>
+                <label>
+                    <input type="checkbox" name="agree" required> Tôi đồng ý với các điều khoản
+                </label>
+            </div>
+        </fieldset>
+        <button type="submit">Gửi tin nhắn</button>
+        <button type="reset">Xoá và nhập lại</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <address>
+            Email: <a href="mailto:tai@example.com">tai@example.com</a> &amp; So dien thoai: 0123456789
+        </address>
+        <!-- BỔ SUNG BƯỚC 7: Thẻ <time> cho ngày cập nhật -->
+        <p>Cap nhat lan cuoi: <time datetime="2026-06-01">01/06/2026</time></p>
+        <p>&copy; 2026 Nguyen Tan Tai. All rights reserved.</p>
+    </footer>
+
+</body>
+</html> 
