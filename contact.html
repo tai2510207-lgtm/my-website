@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nguyen Tan Tai - Lien he</title>
+    <<title>Liên hệ hợp tác cùng Nguyen Tan Tai - Gửi thông tin</title>
+    <meta name="description" content="Khám phá trang web cá nhân để tìm hiểu thông tin chi tiết và kết nối trực tuyến dễ dàng.">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -38,6 +39,20 @@
                     <div>
                         <label for="phone">Điện thoại:</label>
                         <input type="tel" id="phone" name="phone" pattern="[0-9]{10,11}">
+                    </div>
+                    <div>
+                        <label for="dob">Ngày sinh:</label>
+                        <input type="date" id="dob" name="dob">
+                    </div>
+                    <div>
+                        <label for="university">Trường đại học:</label>
+                        <input type="text" id="university" name="university" list="uni-list" placeholder="Chọn hoặc nhập trường...">
+                        <datalist id="uni-list">
+                            <option value="Đại học Bách Khoa TP.HCM">
+                            <option value="Đại học Khoa học Tự nhiên">
+                            <option value="Đại học Công nghệ Thông tin">
+                            <option value="Đại học Kinh tế TP.HCM">
+                        </datalist>
                     </div>
                 </fieldset>
                 <legend>Nội dung liên hệ</legend>
